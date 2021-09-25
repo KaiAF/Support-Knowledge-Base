@@ -13,8 +13,6 @@
 
 ## **Common Cape Issues:**
 
-<br>
-
 ### **A user's cape was stolen**
 There is not really anything we can do here. But tell the user that they can reset the password for Minecraft, Email, and optifine.
 
@@ -51,8 +49,6 @@ This is a common question. The answer is: To prevent people impersonating Mojang
 ### **Modern & Mojang Patterns**
 Piglin and globe patterns are not supported yet because of needcoolshoes.com needing permission from mojang.
 Mojang Pattern is not allowed because of Copyright + Impersonation
-    
-<br>
 
 ## **Common File Issues:**
 
@@ -68,8 +64,6 @@ Arch/Arch Based: `chmod +x optifine-jar-file.jar`
 ### **OptiFine installer error (Access Denied)**
 If there is a file permission error try deleting the OptiFine Version from the libraries folder "`C:\Users\<user>\AppData\Roaming\minecraft\libraries\optifine\OptiFine\<version>`"
 
-<br>
-
 ## **Other:**
 
 ### **PvP Clients**
@@ -80,8 +74,6 @@ If you have anyone that is wanting to refund their capes or has anything related
 Instead redirect them to PaymentWall's support (https://www.paymentwall.com/en/contacts)
 
 ### Note: **PayPal or Bank Chargeback can block you.**
-
-<br>
 
 ### **Change Email**
 If the user donated within 30 days, they should probably refund the donation and if they choose, donate again. Otherwise it's a lost cause. 
