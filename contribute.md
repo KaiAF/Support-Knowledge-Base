@@ -1,5 +1,5 @@
 ### **What is expected when you open a pull request:**
-- Proper Grammer
+- Proper Grammar
 - No Misinformation
 - No offensive words / content
 

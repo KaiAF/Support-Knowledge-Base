@@ -107,7 +107,7 @@ What are OpenGL errors? They relate to your Graphics card drivers. Usually, outd
 ## **Other:**
 
 ### **PvP Clients**
-We do not officially provide support for them. If you want to help out, that's fine. But it's recommended that you ask them to go to a stand-alone version of OptiFine andif the issue continues, you can help them. If not, its most likely the pvp client causing the issue.
+We do not officially provide support for them. If you want to help out, that's fine. But it's recommended that you ask them to go to a stand-alone version of OptiFine and if the issue continues, you can help them. If not, its most likely the pvp client causing the issue.
 
 ### **Refunds**
 If you have anyone that is wanting to refund their capes or has anything related to PaymentWall, dont redirect them to sp614x.
