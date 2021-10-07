@@ -7,7 +7,7 @@
 ## **Table of Contents:**
 - [How to contribute](./contribute.md)
 - [Common Cape Issues](#common-cape-issues)
-- [Common Errors](#error)
+- [Common Errors](#errors)
 - [Other](#other)
 
 ## **Common Cape Issues:**
@@ -71,6 +71,39 @@ If the user cannot see the cape design on there also, chances are, their ISP is 
 
 Note: **Personally, when I see a user with this issue I tell them to restart their router and that usually fixes it.**
 
+## **Errors:**
+
+### **Mod Errors:**
+
+#### **OpenGL Errors**
+What are OpenGL errors? They relate to your Graphics card drivers. Usually, outdated or corrupted drivers will produce a certain error, or cause crashes. What do they mean? Well OpenGL uses these errors for multiple things. People report it this issue with a lot of unrelated problems. So it's kind of hard to say exactly what they mean, I will try to explain what is the most common reason.
+
+| Errors | Description | Reason |
+| ----------- | ----------- | ----------- |
+| **0** | No Error | You know what this is. |
+| **1280** | Invalid enum | Usually this is caused by broken or outdated drivers. Sometimes it can be caused by broken shaders / resource packs. |
+| **1281** | Invalid value | From what I have seen, this is common with broken shaders or textures. This can generally be ignored unless there is something visibly broken.  |
+| **1282** | Invalid operation | Commonly this error is caused by a broken shader. Or just like the others, outdated / broken drivers. |
+| **1283** | Stack overflow | I couldn't find a common issue. |
+| **1284** | Stack underflow | Seems to be something related to broken shaders. I couldn't find too many issues. |
+| **1285** | Out of memory | I couldn't find a common issue. This most likely is caused by the GPU running out of memory. |
+| **1286** | Invalid framebuffer operation | I couldn't find a common issue. This most likely is caused by outdated or broken drivers. |
+
+### **Launcher Errors:**
+
+| Errors | Description | Fix | Example Image |
+| ----------- | ----------- | ----------- | ----------- |
+| **Access Denied:** | Not Fully known why this error happens. | Go to the file location `C:\Users\<your username here>\AppData\Roaming\.minecraft\libraries\optifine\OptiFine` And delete the folder named the version you are trying to install, then restart your pc. | <img alt="" src="./images/Launcher/access_denied.png" width="512px"> |
+| **Unable to install java. There are errors in the following switches: \*** | Java File associations broke. | Download [Jarfix](https://johann.loefflmann.net/jarfix). This usually fixes the error. | <img alt="" src="./images/Launcher/unable_to_install_java.png" width="512px"> |
+| **Unable to press the install button (Grayed out):** | This usually means that the user has a space or an invalid character in their Users directory. | Change their file location, or change their computer username. | <img alt="" src="./images/Launcher/GrayedOut.png" width="512px"> |
+
+### **Website Errors:**
+
+| Errors | Description | Fix | Example Image |
+| ----------- | ----------- | ----------- | ----------- |
+| **Inernal Server Error (Editing Cape) \|\| Cape Not Found for: <user> (When they have a cape)** | It is not fully known why this error happens, we just know that sometimes it does. | We usually directly message sp614x to fix the cape. He has to manually edit something in the database. | <img alt="Inernal Server Error (Editing Cape)" src="./images/website/editingcape_error.png" width="512px"> |
+| **3D Secure Verification Failed.** | It is not fully known why this error happens, other than Paymentwall suspects fraud. This is not caused by OptiFine or can be fixed by OptiFine. **When this error happens, you will not be charged.** | Email [support@paymentwall.com](mailto:support@paymentwall.com) and get support there. | <img alt="3D Secure Verification Failed" src="./images/website/3D_SecureVerificationFailed.png" width="512px"> |
+
 ## **Other:**
 
 ### **PvP Clients**
@@ -115,37 +148,3 @@ Note: **IF they have Minecraft running under a different version of java, it wil
 - **3.)** Click `Let the 3D application decide` then click `Apply` in the bottom right 
 
 The lines should no longer show up around blocks.
-
-## **Errors:**
-
-### **Mod Errors:**
-This area should explain popular OptiFine mod errors.
-
-#### **OpenGL Errors**
-What are OpenGL errors? They relate to your Graphics card drivers. Usually, outdated or corrupted drivers will produce a certain error, or cause crashes. What do they mean? Well OpenGL uses these errors for multiple things. People report it this issue with a lot of unrelated problems. So it's kind of hard to say exactly what they mean, I will try to explain what is the most common reason.
-
-| Errors | Description | Reason |
-| ----------- | ----------- | ----------- |
-| **0** | No Error | You know what this is. |
-| **1280** | Invalid enum | Usually this is caused by broken or outdated drivers. Sometimes it can be caused by broken shaders / resource packs. |
-| **1281** | Invalid value | From what I have seen, this is common with broken shaders or textures. This can generally be ignored unless there is something visibly broken.  |
-| **1282** | Invalid operation | Commonly this error is caused by a broken shader. Or just like the others, outdated / broken drivers. |
-| **1283** | Stack overflow | I couldn't find a common issue. |
-| **1284** | Stack underflow | Seems to be something related to broken shaders. I couldn't find too many issues. |
-| **1285** | Out of memory | I couldn't find a common issue. This most likely is caused by the GPU running out of memory. |
-| **1286** | Invalid framebuffer operation | I couldn't find a common issue. This most likely is caused by outdated or broken drivers. |
-
-### **Launcher Errors:**
-
-| Errors | Description | Fix | Example Image |
-| ----------- | ----------- | ----------- | ----------- |
-| **Access Denied:** | Not Fully known why this error happens. | Go to the file location `C:\Users\<your username here>\AppData\Roaming\.minecraft\libraries\optifine\OptiFine` And delete the folder named the version you are trying to install, then restart your pc. | <img alt="" src="./images/Launcher/access_denied.png" width="512px"> |
-| **Unable to install java. There are errors in the following switches: \*** | Java File associations broke. | Download [Jarfix](https://johann.loefflmann.net/jarfix). This usually fixes the error. | <img alt="" src="./images/Launcher/unable_to_install_java.png" width="512px"> |
-| **Unable to press the install button (Grayed out):** | This usually means that the user has a space or an invalid character in their Users directory. | Change their file location, or change their computer username. | <img alt="" src="./images/Launcher/GrayedOut.png" width="512px"> |
-
-### **Website Errors:**
-
-| Errors | Description | Fix | Example Image |
-| ----------- | ----------- | ----------- | ----------- |
-| **Inernal Server Error (Editing Cape) \|\| Cape Not Found for: <user> (When they have a cape)** | It is not fully known why this error happens, we just know that sometimes it does. | We usually directly message sp614x to fix the cape. He has to manually edit something in the database. | <img alt="Inernal Server Error (Editing Cape)" src="./images/website/editingcape_error.png" width="512px"> |
-| **3D Secure Verification Failed.** | It is not fully known why this error happens, other than Paymentwall suspects fraud. This is not caused by OptiFine or can be fixed by OptiFine. **When this error happens, you will not be charged.** | Email [support@paymentwall.com](mailto:support@paymentwall.com) and get support there. | <img alt="3D Secure Verification Failed" src="./images/website/3D_SecureVerificationFailed.png" width="512px"> |
