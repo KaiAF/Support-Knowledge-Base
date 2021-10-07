@@ -7,6 +7,7 @@
 ## **Table of Contents:**
 - [How to contribute](./contribute.md)
 - [Common Cape Issues](#common-cape-issues)
+- [Common Errors](#error)
 - [Other](#other)
 
 ## **Common Cape Issues:**
@@ -115,10 +116,12 @@ Note: **IF they have Minecraft running under a different version of java, it wil
 
 The lines should no longer show up around blocks.
 
-## **Mod Errors:**
-This area should explain popular OptiFine erros, both website related or mod related.
+## **Errors:**
 
-### **OpenGL Errors**
+### **Mod Errors:**
+This area should explain popular OptiFine mod errors.
+
+#### **OpenGL Errors**
 What are OpenGL errors? They relate to your Graphics card drivers. Usually, outdated or corrupted drivers will produce a certain error, or cause crashes. What do they mean? Well OpenGL uses these errors for multiple things. People report it this issue with a lot of unrelated problems. So it's kind of hard to say exactly what they mean, I will try to explain what is the most common reason.
 
 | Errors | Description | Reason |
@@ -132,7 +135,7 @@ What are OpenGL errors? They relate to your Graphics card drivers. Usually, outd
 | **1285** | Out of memory | I couldn't find a common issue. This most likely is caused by the GPU running out of memory. |
 | **1286** | Invalid framebuffer operation | I couldn't find a common issue. This most likely is caused by outdated or broken drivers. |
 
-## **Launcher Errors:**
+### **Launcher Errors:**
 
 | Errors | Description | Fix | Example Image |
 | ----------- | ----------- | ----------- | ----------- |
@@ -140,7 +143,7 @@ What are OpenGL errors? They relate to your Graphics card drivers. Usually, outd
 | **Unable to install java. There are errors in the following switches: \*** | Java File associations broke. | Download [Jarfix](https://johann.loefflmann.net/jarfix). This usually fixes the error. | <img alt="" src="./images/Launcher/unable_to_install_java.png" width="512px"> |
 | **Unable to press the install button (Grayed out):** | This usually means that the user has a space or an invalid character in their Users directory. | Change their file location, or change their computer username. | <img alt="" src="./images/Launcher/GrayedOut.png" width="512px"> |
 
-## **Website Errors:**
+### **Website Errors:**
 
 | Errors | Description | Fix | Example Image |
 | ----------- | ----------- | ----------- | ----------- |
