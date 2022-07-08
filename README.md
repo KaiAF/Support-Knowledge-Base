@@ -8,6 +8,7 @@
 - [How to contribute](./contribute.md)
 - [Common Cape Issues](#common-cape-issues)
 - [Common Errors](#errors)
+- [Known Mod Incompatibilities](./mod_incompatibilities.md)
 - [Other](#other)
 
 ## **Common Cape Issues:**
@@ -24,25 +25,21 @@ There is not really anything we can do here. But tell the user that they can res
 - Check that they can connect to the cape server, send the link in a fashion that Discord does not provide a preview image, such as "`http://s.optifine.net/capes/sp614x.png`". If they can't, proceed to [Cape Server Blocked](#cape-server-blocked).
 
 ### **Cape Server Blocked**
-There are multiple reasons why a cape server is blocked, the popular reason is that the user installed a app that would block the OptiFine's servers so that they can getcustom capes.
+If you've installed programs such as 999cape, Mantle, or Cloaks+ in the past, you need to uninstall them in order to see OptiFine Capes. If after uninstalling you can't see the cape at this link: [http://s.optifine.net/capes/ZenW.png](ZenW.png) then try this.
 
-In short, have the user open "`C:\Windows\System32\drivers\etc\hosts`", if a line contains "`s.optifine.net`" is there, then we need to delete it.
+- Press Windows key + r, it then should open a window called "run"
+- Copy and paste this into the window powershell -command "Start-Process notepad $env:windir\system32\drivers\etc\hosts" -Verb runas
+- It should open a prompt asking if you want notepad to make changes to your computer, press yes.
+- If there is a line that has s.optifine.net in it, remove it, then press save.
 
-- Open Notepad with Administrator (Search "Notepad" in your Windows Search Bar, right click on it and press Run as Administrator. Accept the prompt that comes up.
-- Press File -> Open
-- In the bottom right corner of the file window, change "Text Documents (\*.txt)" to "All Files (\*.*)"
-- Navigate to "`C:\Windows\System32\drivers\etc`"
-- Double click on hosts
-- Delete the entire line that contains "`s.optifine.net`"
-- Press Control + S to save.
-- Close Notepad and restart your computer.
+Video instructions: https://cdn.discordapp.com/attachments/728756406945185872/906910779901616128/cape_servers.mp4
 
-Video Instructions: https://cdn.discordapp.com/attachments/423433009568546827/840255001874923550/UNuNojRux6.mp4
+**Note: This only works for Windows. If you're on macOS, please ask a support member for help.**
 
 ### **Banner Cape Doesn't Work**
 Make sure that the user isn't using more than 8 layers on the banner.
 
-### **Why can't users use the Mojang patter?**
+### **Why can't users use the Mojang pattern?**
 This is a common question. The answer is: To prevent people impersonating Mojang employees.
 
 ### **Modern & Mojang Patterns**
@@ -101,7 +98,7 @@ What are OpenGL errors? They relate to your Graphics card drivers. Usually, outd
 
 | Errors | Description | Fix | Example Image |
 | ----------- | ----------- | ----------- | ----------- |
-| **Inernal Server Error (Editing Cape) \|\| Cape Not Found for: <user> (When they have a cape)** | It is not fully known why this error happens, we just know that sometimes it does. | We usually directly message sp614x to fix the cape. He has to manually edit something in the database. | <img alt="Inernal Server Error (Editing Cape)" src="./images/website/editingcape_error.png" width="512px"> |
+| **Cape Not Found for: <user> (When they have a cape)** | It is not fully known why this error happens, we just know that sometimes it does. | We usually directly message sp614x to fix the cape. He has to manually edit something in the database. | <img alt="Inernal Server Error (Editing Cape)" src="./images/website/editingcape_error.png" width="512px"> |
 | **3D Secure Verification Failed.** | It is not fully known why this error happens, other than Paymentwall suspects fraud. This is not caused by OptiFine or can be fixed by OptiFine. **When this error happens, you will not be charged.** | Email [support@paymentwall.com](mailto:support@paymentwall.com) and get support there. | <img alt="3D Secure Verification Failed" src="./images/website/3D_SecureVerificationFailed.png" width="512px"> |
 
 ## **Other:**
